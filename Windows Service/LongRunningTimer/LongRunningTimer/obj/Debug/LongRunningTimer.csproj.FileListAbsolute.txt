@@ -1,0 +1,15 @@
+c:\users\andreas\documents\visual studio 2013\Projects\LongRunningTimer\LongRunningTimer\bin\Debug\LongRunningTimer.exe.config
+c:\users\andreas\documents\visual studio 2013\Projects\LongRunningTimer\LongRunningTimer\bin\Debug\LongRunningTimer.exe
+c:\users\andreas\documents\visual studio 2013\Projects\LongRunningTimer\LongRunningTimer\bin\Debug\LongRunningTimer.pdb
+c:\users\andreas\documents\visual studio 2013\Projects\LongRunningTimer\LongRunningTimer\bin\Debug\NLog.dll
+c:\users\andreas\documents\visual studio 2013\Projects\LongRunningTimer\LongRunningTimer\bin\Debug\NLog.xml
+c:\users\andreas\documents\visual studio 2013\Projects\LongRunningTimer\LongRunningTimer\obj\Debug\LongRunningTimer.csprojResolveAssemblyReference.cache
+c:\users\andreas\documents\visual studio 2013\Projects\LongRunningTimer\LongRunningTimer\obj\Debug\LongRunningTimer.exe
+c:\users\andreas\documents\visual studio 2013\Projects\LongRunningTimer\LongRunningTimer\obj\Debug\LongRunningTimer.pdb
+D:\Github\CodeSamples\Windows Service\LongRunningTimer\LongRunningTimer\bin\Debug\LongRunningTimer.exe.config
+D:\Github\CodeSamples\Windows Service\LongRunningTimer\LongRunningTimer\obj\Debug\LongRunningTimer.exe
+D:\Github\CodeSamples\Windows Service\LongRunningTimer\LongRunningTimer\obj\Debug\LongRunningTimer.pdb
+D:\Github\CodeSamples\Windows Service\LongRunningTimer\LongRunningTimer\bin\Debug\LongRunningTimer.exe
+D:\Github\CodeSamples\Windows Service\LongRunningTimer\LongRunningTimer\bin\Debug\LongRunningTimer.pdb
+D:\Github\CodeSamples\Windows Service\LongRunningTimer\LongRunningTimer\obj\Debug\LongRunningTimer.ProjectInstaller.resources
+D:\Github\CodeSamples\Windows Service\LongRunningTimer\LongRunningTimer\obj\Debug\LongRunningTimer.csproj.GenerateResource.Cache
