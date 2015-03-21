@@ -80,7 +80,7 @@ build/
 
 # Config Files
 *.[dD]ebug.config
-*.[dD]release.config
+*.[rR]elease.config
 
 # Visual C++ cache files
 ipch/
