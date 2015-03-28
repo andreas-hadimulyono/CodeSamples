@@ -24,7 +24,6 @@ namespace SQS
         static void Main(string[] args)
         {
             var p = new Program();
-            //p.ReceiveAndDeleteFromSQS();
             
             p.GetQueueAttributesSQS();
 
@@ -77,26 +76,6 @@ namespace SQS
             var client = new AmazonSQSClient(RegionEndpoint.APSoutheast1);
 
             var test = client.GetQueueAttributes(queueUrl, new List<string>() { "ApproximateNumberOfMessages", "VisibilityTimeout" });
-        }
-
-        // receive messages from SQS and delete those messages
-        public void ReceiveAndDeleteFromSQS()
-        {
-            var queueUrl = ConfigurationManager.AppSettings["QueueUrl"];
-            var client = new AmazonSQSClient(RegionEndpoint.APSoutheast1);
-            var msgs = client.ReceiveMessage(new ReceiveMessageRequest() { QueueUrl = queueUrl, MaxNumberOfMessages = 100 });
-
-            var messagesToDelete = new List<Amazon.SQS.Model.Message>();
-
-            foreach (var m in msgs.Messages)
-            {
-                Console.WriteLine(m.Body);
-                messagesToDelete.Add(m);
-            }
-
-            var messagesToDeleteRequests = messagesToDelete.Select(x => new DeleteMessageBatchRequestEntry() { Id = x.MessageId, ReceiptHandle = x.ReceiptHandle }).ToList();
-
-            client.DeleteMessageBatch(new DeleteMessageBatchRequest() { QueueUrl = queueUrl, Entries = messagesToDeleteRequests });
         }
     }
 }
