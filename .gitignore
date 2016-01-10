@@ -218,3 +218,7 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+Courses/gs/packages/morelinq.1.1.1/COPYING.txt
+Courses/gs/packages/morelinq.1.1.1/lib/net35/MoreLinq.xml
+*.dll
+Courses/gs/packages/morelinq.1.1.1/morelinq.1.1.1.nupkg
